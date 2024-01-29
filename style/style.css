@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.layer{
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    bottom: 0;
+    opacity: 0;
+    background-color: white;
+    transition: all 1s;
+}
+.item:hover .layer{
+    top: 0;
+    opacity: 0.8;
+}
+.sidebar{
+    height: 100vh;
+    left: 0;
+}
+.menu{
+    height: 100vh;
+    
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.innerFooter i{
+    color: white;
+}
+.menuIcon{
+    font-size: 30px;
+}
+.menuicon{
+    cursor: pointer;
+}
